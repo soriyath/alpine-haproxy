@@ -4,9 +4,9 @@ MAINTAINER Sumi Straessle
 RUN apk update \
 	&& apk upgrade
 
-ENV HAPROXY_MAJOR 1.6
-ENV HAPROXY_VERSION 1.6.9
-ENV HAPROXY_MD5 c52eee40eb66f290d6f089c339b9d2b3
+ENV HAPROXY_MAJOR 1.7
+ENV HAPROXY_VERSION 1.7.2
+ENV HAPROXY_MD5 7330b36f3764ebe409e9305803dc30e2
 
 # see http://sources.debian.net/src/haproxy/1.5.8-1/debian/rules/ for some helpful navigation of the possible "make" arguments
 RUN set -x \
